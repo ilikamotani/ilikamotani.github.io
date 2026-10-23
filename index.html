@@ -1,23 +1,560 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f9fbfc">
-<meta name="description" content="Personalised tutoring by Ilika Motani, graduating NUS High School student with a 4.8 GPA. Mathematics, sciences, English and creative writing from Primary to JC.">
-<title>Ilika Motani | Student Tutoring</title>
-<style>
-:root{--ink:#263647;--blue:#3b6f94;--soft:#e8f3f9;--muted:#627582}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f9fbfc;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:1100px;margin:auto;padding-inline:clamp(20px,5vw,56px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:22px}.logo{font-size:22px;font-weight:800;letter-spacing:-.8px;color:#233d53}.logo span{color:#7ea9c3}.navlinks{display:flex;align-items:center;gap:24px;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:10px;padding:14px 20px;background:var(--blue);color:white;font-size:14px;font-weight:700;transition:background .2s,transform .2s}.btn:hover{background:#295a7b;transform:translateY(-2px)}.btn:focus-visible,a:focus-visible{outline:3px solid #7ab9dc;outline-offset:4px}.hero{background:linear-gradient(145deg,#e8f3f9,#f6fafc 80%);padding-block:76px 84px}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:64px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#477e9d}h1{font-size:clamp(38px,5vw,62px);line-height:1.1;letter-spacing:-2.3px;margin:20px 0;font-weight:800}h1 em{font-style:normal;color:#5088aa}.lead{font-size:16px;line-height:1.85;color:#586a78;max-width:540px}.statrow{display:flex;flex-wrap:wrap;gap:28px;margin-top:32px}.stat strong{display:block;font-size:23px;color:#294e6a}.stat span{font-size:12px;color:#687b88}.portrait{aspect-ratio:4/4.5;border-radius:22px;background:#d9e8f0;box-shadow:18px 18px 0 #c8e0ec;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#6b8ba0}.portrait img{width:100%;height:100%;object-fit:cover}.portrait svg{width:85px;height:85px;opacity:.6}.portrait small{margin-top:12px}.content{padding-block:78px}.sectionhead{text-align:center;max-width:620px;margin:0 auto 38px}h2{font-size:clamp(28px,3.4vw,37px);letter-spacing:-1.1px;margin:10px 0;font-weight:750}.muted{color:#6c7b86;line-height:1.75;font-size:14px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.subject{background:white;border:1px solid #e4edf2;border-radius:15px;padding:25px 21px;box-shadow:0 5px 20px #24425a06}.symbol{width:44px;height:44px;background:#e9f3f8;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:21px;color:#376f92;margin-bottom:18px}.subject h3{font-size:16px;margin:0 0 8px}.subject p{font-size:13px;color:#758592;line-height:1.65;margin:0}.levels{background:#edf5f9;padding-block:62px}.levelgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.level{background:white;border-radius:13px;padding:26px;text-align:center}.level .num{font-size:12px;font-weight:800;color:#5487a7;letter-spacing:1px}.level h3{font-size:17px;margin:10px 0 6px}.level p{margin:0}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}.aboutbox{background:#e7f1f7;border-radius:18px;padding:34px}.credential{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-bottom:1px solid #cddfe9}.credential:last-child{border:0}.check{color:#377e9c;font-weight:800}.contact{background:#294e69;color:white;text-align:center;padding:74px 20px}.contact .eyebrow{color:#a8d2ea}.contact p{color:#c8dce9;max-width:470px;margin:12px auto 0;line-height:1.8}.contact .btn{background:white;color:#294e69;margin-top:24px}.email{overflow-wrap:anywhere;font-size:13px;margin-top:18px;color:#c8dce9}footer{background:#203e55;color:#c3d2dc;padding-block:24px;font-size:12px}.footerrow{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}@media(max-width:720px){.navlinks .optional{display:none}.hero{padding-block:48px 65px}.hero-grid{grid-template-columns:1fr;gap:40px}.portrait{max-width:360px;width:calc(100% - 20px);margin:auto;aspect-ratio:5/4}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.aboutgrid{grid-template-columns:1fr;gap:28px}.content{padding-block:58px}}@media(max-width:440px){.cards{gap:10px}.subject{padding:18px 13px}.subject h3{font-size:14px}.subject .symbol{margin-bottom:12px}.levelgrid{grid-template-columns:1fr;gap:10px}.level{padding:18px}.statrow{gap:20px}.nav .btn{padding:11px 13px;font-size:12px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
-</style>
-</head>
-<body>
-<header class="wrap nav"><a class="logo" href="#home">ilika<span>.</span></a><nav class="navlinks" aria-label="Main navigation"><a class="optional" href="#subjects">Subjects</a><a class="optional" href="#about">About me</a><a class="btn" href="#contact">Get in touch ↗</a></nav></header>
-<main>
-<section class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">Personalised student tutoring</div><h1>Learning made <em>clearer,</em><br>one step at a time.</h1><p class="lead">Hi, I'm <strong>Ilika Motani!</strong> I'm a graduating student at NUS High School, passionate about helping fellow students build confidence, understand concepts, and enjoy learning.</p><a class="btn" href="mailto:ilika.motani@gmail.com?subject=Tutoring%20Enquiry">Let's learn together →</a><div class="statrow"><div class="stat"><strong>4.8</strong><span>GPA</span></div><div class="stat"><strong>NUS High</strong><span>School of Math &amp; Science</span></div><div class="stat"><strong>Primary–JC</strong><span>Levels supported</span></div></div></div><div class="portrait" aria-label="Portrait photo placeholder"><img src="profile.jpg" alt="Portrait of Ilika Motani" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div style="display:none;align-items:center;flex-direction:column;text-align:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-5 3-8 8-8s8 3 8 8"/></svg><small>Your photo here<br>Save it as profile.jpg</small></div></div></div></section>
-<section class="content wrap" id="subjects"><div class="sectionhead"><div class="eyebrow">What I teach</div><h2>Subjects I can help with</h2><p class="muted">From tricky equations to creative expression, I'm here to make learning feel a little easier.</p></div><div class="cards"><article class="subject"><div class="symbol">∑</div><h3>Mathematics</h3><p>Building strong foundations and confident problem-solving.</p></article><article class="subject"><div class="symbol">✳</div><h3>General Science</h3><p>Understanding the world through scientific concepts.</p></article><article class="subject"><div class="symbol">⚗</div><h3>Chemistry</h3><p>Making reactions, equations and concepts click.</p></article><article class="subject"><div class="symbol">⚛</div><h3>Physics</h3><p>Breaking down complex ideas into clear steps.</p></article><article class="subject"><div class="symbol">Aa</div><h3>English</h3><p>Strengthening comprehension, writing and communication.</p></article><article class="subject"><div class="symbol">✎</div><h3>Creative Writing</h3><p>Finding your voice and expressing ideas with confidence.</p></article></div></section>
-<section class="levels"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Who I teach</div><h2>Support at every stage</h2><p class="muted">Tutoring tailored to your learning level and individual goals.</p></div><div class="levelgrid"><div class="level"><div class="num">01</div><h3>Primary School</h3><p class="muted">Building strong foundations</p></div><div class="level"><div class="num">02</div><h3>Secondary School</h3><p class="muted">Deepening understanding</p></div><div class="level"><div class="num">03</div><h3>Junior College</h3><p class="muted">Tackling advanced concepts</p></div></div></div></section>
-<section class="content wrap" id="about"><div class="aboutgrid"><div><div class="eyebrow">A little about me</div><h2>Hi again, I'm Ilika!</h2><p class="muted">As a graduating student at NUS High School, I understand what it's like to navigate challenging subjects, prepare for exams, and work towards academic goals.</p><p class="muted">I believe that with patient explanations and the right approach, every student can make progress. I'd love to share what I've learned and help you feel more confident in your studies.</p></div><div class="aboutbox"><div class="eyebrow">My credentials</div><div class="credential"><span class="check">✓</span><div><strong>NUS High School</strong><div class="muted">Graduating student</div></div></div><div class="credential"><span class="check">✓</span><div><strong>4.8 GPA</strong><div class="muted">Academic achievement</div></div></div><div class="credential"><span class="check">✓</span><div><strong>6 Tutoring Subjects</strong><div class="muted">STEM, English and writing</div></div></div><div class="credential"><span class="check">✓</span><div><strong>Primary to JC</strong><div class="muted">Support across school levels</div></div></div></div></div></section>
-<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Let's connect</div><h2>Ready to learn together?</h2><p>Have a question or interested in tutoring? I'd love to hear from you. Reach out and let's chat!</p><a class="btn" href="mailto:ilika.motani@gmail.com?subject=Tutoring%20Enquiry">✉ &nbsp; Email me</a><div class="email">ilika.motani@gmail.com</div></div></section>
-</main><footer><div class="wrap footerrow"><span>© 2026 Ilika Motani. Made with care.</span><span>Learning starts with curiosity. ✦</span></div></footer>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#f9fbfc" />
+        <meta
+            name="description"
+            content="Personalised tutoring by Ilika Motani, graduating NUS High School student with a 4.8 GPA. Mathematics, sciences, English and creative writing from Primary to JC."
+        />
+        <title>Ilika Motani | Student Tutoring</title>
+        <style>
+            :root {
+                --ink: #263647;
+                --blue: #3b6f94;
+                --soft: #e8f3f9;
+                --muted: #627582;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                margin: 0;
+                background: #f9fbfc;
+                color: var(--ink);
+                font-family:
+                    Inter,
+                    ui-sans-serif,
+                    system-ui,
+                    -apple-system,
+                    Segoe UI,
+                    sans-serif;
+            }
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+            .wrap {
+                max-width: 1100px;
+                margin: auto;
+                padding-inline: clamp(20px, 5vw, 56px);
+            }
+            .nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 16px;
+                padding-block: 22px;
+            }
+            .logo {
+                font-size: 22px;
+                font-weight: 800;
+                letter-spacing: -0.8px;
+                color: #233d53;
+            }
+            .logo span {
+                color: #7ea9c3;
+            }
+            .navlinks {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                font-size: 14px;
+            }
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                border-radius: 10px;
+                padding: 14px 20px;
+                background: var(--blue);
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+                transition:
+                    background 0.2s,
+                    transform 0.2s;
+            }
+            .btn:hover {
+                background: #295a7b;
+                transform: translateY(-2px);
+            }
+            .btn:focus-visible,
+            a:focus-visible {
+                outline: 3px solid #7ab9dc;
+                outline-offset: 4px;
+            }
+            .hero {
+                background: linear-gradient(145deg, #e8f3f9, #f6fafc 80%);
+                padding-block: 76px 84px;
+            }
+            .hero-grid {
+                display: grid;
+                grid-template-columns: 1.2fr 0.8fr;
+                align-items: center;
+                gap: 64px;
+            }
+            .eyebrow {
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #477e9d;
+            }
+            h1 {
+                font-size: clamp(38px, 5vw, 62px);
+                line-height: 1.1;
+                letter-spacing: -2.3px;
+                margin: 20px 0;
+                font-weight: 800;
+            }
+            h1 em {
+                font-style: normal;
+                color: #5088aa;
+            }
+            .lead {
+                font-size: 16px;
+                line-height: 1.85;
+                color: #586a78;
+                max-width: 540px;
+            }
+            .statrow {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 28px;
+                margin-top: 32px;
+            }
+            .stat strong {
+                display: block;
+                font-size: 23px;
+                color: #294e6a;
+            }
+            .stat span {
+                font-size: 12px;
+                color: #687b88;
+            }
+            .portrait {
+                aspect-ratio: 4/4.5;
+                border-radius: 22px;
+                background: #d9e8f0;
+                box-shadow: 18px 18px 0 #c8e0ec;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: #6b8ba0;
+            }
+            .portrait img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .portrait svg {
+                width: 85px;
+                height: 85px;
+                opacity: 0.6;
+            }
+            .portrait small {
+                margin-top: 12px;
+            }
+            .content {
+                padding-block: 78px;
+            }
+            .sectionhead {
+                text-align: center;
+                max-width: 620px;
+                margin: 0 auto 38px;
+            }
+            h2 {
+                font-size: clamp(28px, 3.4vw, 37px);
+                letter-spacing: -1.1px;
+                margin: 10px 0;
+                font-weight: 750;
+            }
+            .muted {
+                color: #6c7b86;
+                line-height: 1.75;
+                font-size: 14px;
+            }
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 16px;
+            }
+            .subject {
+                background: white;
+                border: 1px solid #e4edf2;
+                border-radius: 15px;
+                padding: 25px 21px;
+                box-shadow: 0 5px 20px #24425a06;
+            }
+            .symbol {
+                width: 44px;
+                height: 44px;
+                background: #e9f3f8;
+                border-radius: 11px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 21px;
+                color: #376f92;
+                margin-bottom: 18px;
+            }
+            .subject h3 {
+                font-size: 16px;
+                margin: 0 0 8px;
+            }
+            .subject p {
+                font-size: 13px;
+                color: #758592;
+                line-height: 1.65;
+                margin: 0;
+            }
+            .levels {
+                background: #edf5f9;
+                padding-block: 62px;
+            }
+            .levelgrid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 16px;
+            }
+            .level {
+                background: white;
+                border-radius: 13px;
+                padding: 26px;
+                text-align: center;
+            }
+            .level .num {
+                font-size: 12px;
+                font-weight: 800;
+                color: #5487a7;
+                letter-spacing: 1px;
+            }
+            .level h3 {
+                font-size: 17px;
+                margin: 10px 0 6px;
+            }
+            .level p {
+                margin: 0;
+            }
+            .aboutgrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 65px;
+                align-items: center;
+            }
+            .aboutbox {
+                background: #e7f1f7;
+                border-radius: 18px;
+                padding: 34px;
+            }
+            .credential {
+                display: flex;
+                gap: 14px;
+                align-items: flex-start;
+                padding: 15px 0;
+                border-bottom: 1px solid #cddfe9;
+            }
+            .credential:last-child {
+                border: 0;
+            }
+            .check {
+                color: #377e9c;
+                font-weight: 800;
+            }
+            .contact {
+                background: #294e69;
+                color: white;
+                text-align: center;
+                padding: 74px 20px;
+            }
+            .contact .eyebrow {
+                color: #a8d2ea;
+            }
+            .contact p {
+                color: #c8dce9;
+                max-width: 470px;
+                margin: 12px auto 0;
+                line-height: 1.8;
+            }
+            .contact .btn {
+                background: white;
+                color: #294e69;
+                margin-top: 24px;
+            }
+            .email {
+                overflow-wrap: anywhere;
+                font-size: 13px;
+                margin-top: 18px;
+                color: #c8dce9;
+            }
+            footer {
+                background: #203e55;
+                color: #c3d2dc;
+                padding-block: 24px;
+                font-size: 12px;
+            }
+            .footerrow {
+                display: flex;
+                justify-content: space-between;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+            @media (max-width: 720px) {
+                .navlinks .optional {
+                    display: none;
+                }
+                .hero {
+                    padding-block: 48px 65px;
+                }
+                .hero-grid {
+                    grid-template-columns: 1fr;
+                    gap: 40px;
+                }
+                .portrait {
+                    max-width: 360px;
+                    width: calc(100% - 20px);
+                    margin: auto;
+                    aspect-ratio: 5/4;
+                }
+                .cards {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+                .aboutgrid {
+                    grid-template-columns: 1fr;
+                    gap: 28px;
+                }
+                .content {
+                    padding-block: 58px;
+                }
+            }
+            @media (max-width: 440px) {
+                .cards {
+                    gap: 10px;
+                }
+                .subject {
+                    padding: 18px 13px;
+                }
+                .subject h3 {
+                    font-size: 14px;
+                }
+                .subject .symbol {
+                    margin-bottom: 12px;
+                }
+                .levelgrid {
+                    grid-template-columns: 1fr;
+                    gap: 10px;
+                }
+                .level {
+                    padding: 18px;
+                }
+                .statrow {
+                    gap: 20px;
+                }
+                .nav .btn {
+                    padding: 11px 13px;
+                    font-size: 12px;
+                }
+            }
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+                .btn {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header class="wrap nav">
+            <a class="logo" href="#home">ilika<span>.</span></a>
+            <nav class="navlinks" aria-label="Main navigation">
+                <a class="optional" href="#subjects">Subjects</a><a class="optional" href="#about">About me</a
+                ><a class="btn" href="#contact">Get in touch ↗</a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero" id="home">
+                <div class="wrap hero-grid">
+                    <div>
+                        <div class="eyebrow">Personalised student tutoring</div>
+                        <h1>Learning made <em>clearer,</em><br />one step at a time.</h1>
+                        <p class="lead">
+                            Hi, I'm <strong>Ilika Motani!</strong> I'm a graduating student at NUS High School,
+                            passionate about helping fellow students build confidence, understand concepts, and enjoy
+                            learning.
+                        </p>
+                        <a class="btn" href="mailto:ilika.motani@gmail.com?subject=Tutoring%20Enquiry"
+                            >Let's learn together →</a
+                        >
+                        <div class="statrow">
+                            <div class="stat"><strong>4.8</strong><span>GPA</span></div>
+                            <div class="stat"><strong>NUS High</strong><span>School of Math &amp; Science</span></div>
+                            <div class="stat"><strong>Primary–JC</strong><span>Levels supported</span></div>
+                        </div>
+                    </div>
+                    <div class="portrait" aria-label="Portrait photo placeholder">
+                        <img
+                            src="profile.jpg"
+                            alt="Portrait of Ilika Motani"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+                        />
+                        <div style="display: none; align-items: center; flex-direction: column; text-align: center">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.2"
+                                aria-hidden="true"
+                            >
+                                <circle cx="12" cy="8" r="4" />
+                                <path d="M4 21c0-5 3-8 8-8s8 3 8 8" /></svg
+                            ><small>Your photo here<br />Save it as profile.jpg</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content wrap" id="subjects">
+                <div class="sectionhead">
+                    <div class="eyebrow">What I teach</div>
+                    <h2>Subjects I can help with</h2>
+                    <p class="muted">
+                        From tricky equations to creative expression, I'm here to make learning feel a little easier.
+                    </p>
+                </div>
+                <div class="cards">
+                    <article class="subject">
+                        <div class="symbol">∑</div>
+                        <h3>Mathematics</h3>
+                        <p>Building strong foundations and confident problem-solving.</p>
+                    </article>
+                    <article class="subject">
+                        <div class="symbol">✳</div>
+                        <h3>General Science</h3>
+                        <p>Understanding the world through scientific concepts.</p>
+                    </article>
+                    <article class="subject">
+                        <div class="symbol">⚗</div>
+                        <h3>Chemistry</h3>
+                        <p>Making reactions, equations and concepts click.</p>
+                    </article>
+                    <article class="subject">
+                        <div class="symbol">⚛</div>
+                        <h3>Physics</h3>
+                        <p>Breaking down complex ideas into clear steps.</p>
+                    </article>
+                    <article class="subject">
+                        <div class="symbol">Aa</div>
+                        <h3>English</h3>
+                        <p>Strengthening comprehension, writing and communication.</p>
+                    </article>
+                    <article class="subject">
+                        <div class="symbol">✎</div>
+                        <h3>Creative Writing</h3>
+                        <p>Finding your voice and expressing ideas with confidence.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="levels">
+                <div class="wrap">
+                    <div class="sectionhead">
+                        <div class="eyebrow">Who I teach</div>
+                        <h2>Support at every stage</h2>
+                        <p class="muted">Tutoring tailored to your learning level and individual goals.</p>
+                    </div>
+                    <div class="levelgrid">
+                        <div class="level">
+                            <div class="num">01</div>
+                            <h3>Primary School</h3>
+                            <p class="muted">Building strong foundations</p>
+                        </div>
+                        <div class="level">
+                            <div class="num">02</div>
+                            <h3>Secondary School</h3>
+                            <p class="muted">Deepening understanding</p>
+                        </div>
+                        <div class="level">
+                            <div class="num">03</div>
+                            <h3>Junior College</h3>
+                            <p class="muted">Tackling advanced concepts</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content wrap" id="about">
+                <div class="aboutgrid">
+                    <div>
+                        <div class="eyebrow">A little about me</div>
+                        <h2>Hi again, I'm Ilika!</h2>
+                        <p class="muted">
+                            As a graduating student at NUS High School, I understand what it's like to navigate
+                            challenging subjects, prepare for exams, and work towards academic goals.
+                        </p>
+                        <p class="muted">
+                            I believe that with patient explanations and the right approach, every student can make
+                            progress. I'd love to share what I've learned and help you feel more confident in your
+                            studies.
+                        </p>
+                    </div>
+                    <div class="aboutbox">
+                        <div class="eyebrow">My credentials</div>
+                        <div class="credential">
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>NUS High School</strong>
+                                <div class="muted">Graduating student</div>
+                            </div>
+                        </div>
+                        <div class="credential">
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>4.8 GPA</strong>
+                                <div class="muted">Academic achievement</div>
+                            </div>
+                        </div>
+                        <div class="credential">
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>6 Tutoring Subjects</strong>
+                                <div class="muted">STEM, English and writing</div>
+                            </div>
+                        </div>
+                        <div class="credential">
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>Primary to JC</strong>
+                                <div class="muted">Support across school levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="wrap">
+                    <div class="eyebrow">Let's connect</div>
+                    <h2>Ready to learn together?</h2>
+                    <p>
+                        Have a question or interested in tutoring? I'd love to hear from you. Reach out and let's chat!
+                    </p>
+                    <a class="btn" href="mailto:ilika.motani@gmail.com?subject=Tutoring%20Enquiry"
+                        >✉ &nbsp; Email me</a
+                    >
+                    <div class="email">ilika.motani@gmail.com</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="wrap footerrow">
+                <span>© 2026 Ilika Motani. Made with care.</span><span>Learning starts with curiosity. ✦</span>
+            </div>
+        </footer>
+    </body>
 </html>
